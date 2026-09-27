@@ -279,36 +279,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* =====================================================
        ACTIVITY DATA
+       
+       TEAM CHALLENGE REMOVED
     ====================================================== */
 
     const activityData = {
 
-        team: {
-            number: "01",
-            title: "TEAM CHALLENGES",
-            text:
-                "Bring your people together, think fast, work as a team and take on challenges designed to get everyone involved."
-        },
-
         individual: {
-            number: "02",
-            title: "INDIVIDUAL CHALLENGES",
+            number: "01",
+            title: "INDIVIDUAL CHALLENGE",
             text:
                 "Step into the spotlight, take the challenge and show everyone what makes you different."
         },
 
         performance: {
-            number: "03",
+            number: "02",
             title: "DANCE • MUSIC • JAM",
             text:
-                "Sing it. Dance it. Jam it. Whether you're on stage or off stage, bring your energy to the night."
+                "Sing it. Dance it. Jam it. Whether you're on stage or off stage, bring your energy to the carnival."
         },
 
         food: {
-            number: "04",
+            number: "03",
             title: "FOOD • REFRESHMENTS",
             text:
-                "Because great nights need good people, good conversations and something refreshing between the action."
+                "Because great events need good people, good conversations and something refreshing between the action."
         }
 
     };
@@ -518,7 +513,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     /* =====================================================
-       MR & MRS REVEAL
+       MR & MS REVEAL
     ====================================================== */
 
     revealTitleBtn.addEventListener(
@@ -635,8 +630,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /*
        IMPORTANT:
-       Replace this with your Google Apps Script
-       Web App URL ending in /exec.
+       Google Apps Script Web App URL
     */
 
     const RSVP_URL =
@@ -858,12 +852,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 finalButton
                     .querySelector("span")
                     .textContent =
-                    "JOIN THE NIGHT";
+                    "JOIN THE CARNIVAL";
 
             }
 
         }
     );
+
 
     finalButton.addEventListener(
         "mouseleave",
